@@ -15,11 +15,72 @@ body {
 }
 
 @media (min-width: 300px) {
-
     main {
         display: flex;
         flex-direction: column;
         row-gap: 40px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills > article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        row-gap: 20px;
+    }
+
+    .skills > article > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+        padding: 4%;
+    }
+
+    .skills aside {
+        width: 15vh;
+        height: 15vh;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .html-5 > aside {
+        background-image: url("https://cdn-icons-png.flaticon.com/512/732/732212.png");
+    }
+    .css-3 > aside {
+        background-image: url("https://cdn-icons-png.flaticon.com/512/732/732190.png");
+    }
+    .fontawesome > aside {
+        background-image: url("https://www.drupal.org/files/project-images/font_awesome_logo.png");
+    }
+    .google-fonts > aside {
+        background-image: url("https://cdn-icons-png.flaticon.com/512/281/281764.png");
+    }
+
+    .github > aside {
+        background-image: url("https://cdn-icons-png.flaticon.com/512/733/733609.png");
+    }
+
+    .bootstrap > aside {
+        background-image: url("https://cdn-icons-png.flaticon.com/512/5968/5968672.png");
+    }
+
+    .scss > aside {
+        background-image: url("https://cdn-icons-png.flaticon.com/512/5968/5968358.png");
+    }
+    
+
+    .skills h4 {
+        text-align: center;
     }
 
     .education {
