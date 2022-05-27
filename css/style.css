@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 @media (min-width: 300px) {
-    
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+    }
+
+    footer > div {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
 }
